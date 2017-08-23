@@ -1,0 +1,416 @@
+
+@font-face {
+  font-family: "essb-ep";
+  src:url("essb-extended-pack.eot");
+  src:url("essb-extended-pack.eot?#iefix") format("embedded-opentype"),
+    url("essb-extended-pack.woff") format("woff"),
+    url("essb-extended-pack.ttf") format("truetype"),
+    url("essb-extended-pack.svg#essb-extended-pack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'essb-ep';
+    src: url('../font/essb-extended-pack.svg?37567412#essb-fp') format('svg');
+  }
+}
+*/
+ 
+.essb_icon_hatena:before,
+.essb_icon_douban:before,
+.essb_icon_qzone:before,
+.essb_icon_naver:before,
+.essb_icon_renren:before {
+ 	font-family: "essb-ep" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	min-width: 18px;
+}
+ 
+.essb_icon_douban:before {
+  content: "\61";
+}
+.essb_icon_hatena:before {
+  content: "\62";
+}
+.essb_icon_naver:before {
+  content: "\63";
+}
+.essb_icon_qzone:before {
+  content: "\64";
+}
+
+.essb_icon_renren:before {
+  content: "\65";
+}
+
+
+.essb_links .essb_link_douban a
+	{
+	background-color: #0e7512;
+}
+
+.essb_links .essb_link_naver a
+	{
+	background-color: #2DB400;
+}
+
+.essb_links .essb_link_qzone a
+	{
+	background-color: #FFCE00;
+}
+
+.essb_links .essb_link_hatena a
+	{
+	background-color: #08AED9;
+}
+
+.essb_links .essb_link_renren a {
+	background-color: #0058ae;
+}
+
+
+.essb_links.essb_template_light-retina .essb_link_douban a
+	{
+	color: #0e7512 !important;
+}
+
+.essb_links.essb_template_light-retina .essb_link_naver a {
+	color: #2DB400 !important;
+}
+.essb_links.essb_template_light-retina .essb_link_qzone a {
+	color: #FFCE00 !important;	
+}
+
+.essb_links.essb_template_light-retina .essb_link_hatena a {
+	color: #08AED9 !important;	
+}
+
+.essb_links.essb_template_light-retina .essb_link_renren a {
+	color: #0058ae !important;	
+}
+
+
+.essb_links.essb_template_round-retina .essb_link_douban a {
+	color: #0e7512 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_douban a:hover {
+	color: #fff !important;
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_naver a {
+	color: #2DB400 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_naver a:hover {
+	color: #fff !important;
+	background-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_qzone a {
+	color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_qzone a:hover {
+	color: #fff !important;
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_hatena a {
+	color: #08AED9 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_hatena a:hover {
+	color: #fff !important;
+	background-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_renren a {
+	color: #0058ae !important;
+}
+
+.essb_links.essb_template_round-retina .essb_link_renren a:hover {
+	color: #fff !important;
+	background-color: #0058ae !important;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_douban a {
+	color: #0e7512 !important;
+	border-bottom: 3px inset #0e7512;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_douban a:hover {
+	color: #fff !important;
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_naver a {
+	color: #2DB400 !important;
+	border-bottom: 3px inset #2DB400;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_naver a:hover {
+	color: #fff !important;
+	background-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_qzone a {
+	color: #FFCE00 !important;
+	border-bottom: 3px inset #FFCE00;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_qzone a:hover {
+	color: #fff !important;
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_hatena a {
+	color: #08AED9 !important;
+	border-bottom: 3px inset #08AED9;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_hatena a:hover {
+	color: #fff !important;
+	background-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_renren a {
+	color: #0058ae !important;
+	border-bottom: 3px inset #0058ae;
+}
+
+.essb_links.essb_template_modern-retina .essb_link_renren a:hover {
+	color: #fff !important;
+	background-color: #0058ae !important;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_douban a {
+	color: #0e7512 !important;
+	border: 2px inset #0e7512;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_douban a:hover {
+	color: #fff !important;
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_naver a {
+	color: #2DB400 !important;
+	border: 2px inset #2DB400;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_naver a:hover {
+	color: #fff !important;
+	background-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_qzone a {
+	color: #FFCE00 !important;
+	border: 2px inset #FFCE00;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_qzone a:hover {
+	color: #fff !important;
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_hatena a {
+	color: #08AED9 !important;
+	border: 2px inset #08AED9;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_hatena a:hover {
+	color: #fff !important;
+	background-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_renren a {
+	color: #0058ae !important;
+	border: 2px inset #0058ae;
+}
+
+.essb_links.essb_template_circles-retina .essb_link_renren a:hover {
+	color: #fff !important;
+	background-color: #0058ae !important;
+}
+
+.essb_links.essb_template_dark-retina .essb_link_douban a:hover,
+.essb_links.essb_template_grey-circles-retina .essb_link_douban a:hover,
+.essb_links.essb_template_grey-blocks-retina .essb_link_douban a:hover,
+.essb_links.essb_template_copy-retina .essb_link_douban a:hover,
+.essb_links.essb_template_default-retina .essb_link_douban a:hover,
+.essb_links.essb_template_jumbo-retina .essb_link_douban a:hover,
+.essb_links.essb_template_fancy-retina .essb_link_douban a:hover,
+.essb_links.essb_template_deluxe-retina .essb_link_douban a:hover,
+.essb_links.essb_template_bold-retina .essb_link_douban a:hover,
+.essb_links.essb_template_fancy-bold-retina .essb_link_douban a:hover,
+.essb_links.essb_template_metro-bold-retina .essb_link_douban a:hover,
+.essb_links.essb_template_grey-leafs .essb_link_douban a:hover   {
+	color: #fff !important;
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_dark-retina .essb_link_naver a:hover,
+.essb_links.essb_template_grey-circles-retina .essb_link_naver a:hover,
+.essb_links.essb_template_copy-retina .essb_link_naver a:hover,
+.essb_links.essb_template_grey-blocks-retina .essb_link_naver a:hover,
+.essb_links.essb_template_default-retina .essb_link_naver a:hover,
+.essb_links.essb_template_jumbo-retina .essb_link_naver a:hover,
+.essb_links.essb_template_fancy-retina .essb_link_naver a:hover,
+.essb_links.essb_template_deluxe-retina .essb_link_naver a:hover,
+.essb_links.essb_template_bold-retina .essb_link_naver a:hover,
+.essb_links.essb_template_fancy-bold-retina .essb_link_naver a:hover,
+.essb_links.essb_template_metro-bold-retina .essb_link_naver a:hover,
+.essb_links.essb_template_grey-leafs .essb_link_naver a:hover {
+	color: #fff !important;
+	background-color: #2DB400 !important;
+}
+.essb_links.essb_template_dark-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_grey-circles-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_grey-blocks-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_copy-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_default-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_jumbo-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_fancy-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_deluxe-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_bold-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_fancy-bold-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_metro-bold-retina .essb_link_qzone a:hover,
+.essb_links.essb_template_grey-leafs .essb_link_qzone a:hover {
+	color: #fff !important;
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_dark-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_grey-circles-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_grey-blocks-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_copy-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_default-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_jumbo-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_fancy-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_deluxe-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_bold-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_fancy-bold-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_metro-bold-retina .essb_link_hatena a:hover,
+.essb_links.essb_template_grey-leafs .essb_link_hatena a:hover {
+	color: #fff !important;
+	background-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_dark-retina .essb_link_renren a:hover,
+.essb_links.essb_template_grey-circles-retina .essb_link_renren a:hover,
+.essb_links.essb_template_grey-blocks-retina .essb_link_renren a:hover,
+.essb_links.essb_template_copy-retina .essb_link_renren a:hover,
+.essb_links.essb_template_default-retina .essb_link_renren a:hover,
+.essb_links.essb_template_jumbo-retina .essb_link_renren a:hover,
+.essb_links.essb_template_fancy-retina .essb_link_renren a:hover,
+.essb_links.essb_template_deluxe-retina .essb_link_renren a:hover,
+.essb_links.essb_template_bold-retina .essb_link_renren a:hover,
+.essb_links.essb_template_fancy-bold-retina .essb_link_renren a:hover,
+.essb_links.essb_template_metro-bold-retina .essb_link_renren a:hover,
+.essb_links.essb_template_grey-leafs .essb_link_renren a:hover {
+	color: #fff !important;
+	background-color: #0058ae !important;
+}
+
+.essb_links.essb_template_clear-retina .essb_link_douban a .essb_icon {
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_clear-retina .essb_link_naver a .essb_icon {
+	background-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_clear-retina .essb_link_qzone a .essb_icon {
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_clear-retina .essb_link_hatena a .essb_icon {
+	background-color: #08AED9 !important;
+}
+
+
+.essb_links.essb_template_dimmed-retina .essb_link_douban a {
+	color: #0e7512 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_douban a:hover {
+	color: #fff !important;
+	background-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_naver a {
+	color: #2DB400 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_naver a:hover {
+	color: #fff !important;
+	background-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_qzone a {
+	color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_qzone a:hover {
+	color: #fff !important;
+	background-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_hatena a {
+	color: #08AED9 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_hatena a:hover {
+	color: #fff !important;
+	background-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_renren a {
+	color: #0058ae !important;
+}
+
+.essb_links.essb_template_dimmed-retina .essb_link_renren a:hover {
+	color: #fff !important;
+	background-color: #0058ae !important;
+}
+
+.essb_links.essb_template_grey-circles-outline-retina .essb_link_douban a:hover {
+	color: #0e7512 !important;
+	border-color: #0e7512 !important;
+}
+
+.essb_links.essb_template_grey-circles-outline-retina .essb_link_naver a:hover {
+	color: #2DB400 !important;
+	border-color: #2DB400 !important;
+}
+
+.essb_links.essb_template_grey-circles-outline-retina .essb_link_qzone a:hover {
+	color: #FFCE00 !important;
+	border-color: #FFCE00 !important;
+}
+
+.essb_links.essb_template_grey-circles-outline-retina .essb_link_hatena a:hover {
+	color: #08AED9 !important;
+	border-color: #08AED9 !important;
+}
+
+.essb_links.essb_template_grey-circles-outline-retina .essb_link_renren a:hover {
+	color: #0058ae !important;
+	border-color: #0058ae !important;
+}
